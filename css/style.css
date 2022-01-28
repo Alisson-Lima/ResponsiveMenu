@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body .container {
+  position: relative;
+  background-image: url(../img/cidade.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+body .container nav {
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 280px;
+  height: 100%;
+  background-color: #1A1A1A;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .container nav ul {
+  width: 100%;
+}
+
+body .container nav ul li {
+  display: block;
+  width: 100%;
+}
+
+body .container nav ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  font-size: 20px;
+  color: #d9d9d985;
+}
+
+body .container nav ul li a:hover {
+  background-color: #252525;
+}
+
+body .container nav ul li a.activate {
+  background-color: #D9D9D9;
+  color: #1A1A1A;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+body .container nav ul li a.activate svg path {
+  -webkit-transition: .5s;
+  transition: .5s;
+  fill: #1A1A1A;
+}
+
+body .container nav:hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+/*# sourceMappingURL=style.css.map */
